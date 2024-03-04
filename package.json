@@ -1,6 +1,6 @@
 {
-  "homepage": "https://moizsaif.github.io/moizsaif",
-  "name": "my-app",
+  "homepage": "https://moizsaif.github.io",
+  "name": "moizsaif",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

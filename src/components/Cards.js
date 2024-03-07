@@ -1,7 +1,9 @@
 import React from 'react';
-import CardItem from './CardItem';
 import './Cards.css';
+import CardItem from './CardItem';
 import PropTypes from 'prop-types';
+import logo from "./img-9.jpg";
+import logo1 from "./img-2.jpg";
 
 Cards.propTypes = {
   path: PropTypes.string,
@@ -17,12 +19,44 @@ function Cards() {
         <div className='cards_wrapper'>
             <ul className='cards__items'>
                 <CardItem
-                src="./img-9.jpg"
+                src={logo}
                 text="Explore the hidden waterfall deep
                 inside the Amazon Jungle"
                 label="Adventure"
                 path="/services"
                 />
+                <CardItem
+                src={logo1}
+                text="Explore the hidden waterfall deep
+                inside the Amazon Jungle"
+                label="Adventure"
+                path="/services"
+                />
+               
+            </ul>
+            <ul className='cards__items'>
+                <CardItem
+                src={logo}
+                text="Explore the hidden waterfall deep
+                inside the Amazon Jungle"
+                label="Adventure"
+                path="/services"
+                />
+                <CardItem
+                src={logo1}
+                text="Explore the hidden waterfall deep
+                inside the Amazon Jungle"
+                label="Adventure"
+                path="/services"
+                />
+                <CardItem
+                src={logo1}
+                text="Explore the hidden waterfall deep
+                inside the Amazon Jungle"
+                label="Adventure"
+                path="/services"
+                />
+               
             </ul>
         </div>
       </div>

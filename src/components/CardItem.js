@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import logo from "./img-9.jpg";
 
+
 CardItem.propTypes = {
   path: PropTypes.Link,
   label: PropTypes.string,
@@ -18,7 +19,7 @@ function CardItem(props) {
       <li className="cards__item">
         <Link className='cards__item__link' to={props.path}>
             <figure className='cards__item__pic-wrap' data-category={props.label}>
-                <img src={logo} alt="Travel Image" 
+                <img src={props.src} alt="Travel Image" 
                 className="cards__item__img" />
             </figure>
             <div className="cards__item_info">
